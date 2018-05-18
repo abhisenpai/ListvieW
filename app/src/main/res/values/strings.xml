@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListvieW</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_name">Abhi</string>
+    <string name="animal_name">Name of the animal:</string>
+    <string name="animal_power">Power of the animal:</string>
+    <string name="animal_speed">Speed of the animal:</string>
+</resources>

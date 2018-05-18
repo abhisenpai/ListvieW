@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000FF">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:src="@drawable/bird"
+        android:id="@+id/animalImage"/>
+
+        <TextView
+            android:id="@+id/animalName"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/animalImage"
+            android:layout_toRightOf="@+id/animalImage"
+            android:text="@string/animal_name"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/animalPower"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/animalName"
+            android:background="#FFFFFF"
+            android:text="@string/animal_power"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/animalSpeed"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/animalPower"
+            android:text="@string/animal_speed"
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
